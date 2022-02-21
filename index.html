@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio | Muhammad Zydane</title>
+
+        <!-- logo -->
+        <link rel="icon" href="assets/img/Logo.png" />
+        <!-- css -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <!-- navbar -->
+            <nav>
+                <div>
+                    <a class="header-logo" href="#"><img src="assets/img/Logo.png" alt="Zydane" width="30px" /></a>
+                </div>
+                <ul class="nav-right" id="menu">
+                    <li class="nav__menu" data-target="welcome">Home</li>
+                    <li class="nav__menu" data-target="about">About</li>
+                    <li class="nav__menu" onclick="develop()">
+                        Portofolio
+                        <audio id="audio" src="assets/audio/notification.mp3"></audio>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- jumbotron -->
+            <div class="jumbotron" id="welcome">
+                <div class="box margin-box home">
+                    <p class="jumbotron-name" data-intersection="welcome">I’m Zydane</p>
+                    <h1>Front-End Developer</h1>
+                    <p class="jumbotron-capt">
+                        I am a third year student who is very interested about Programming and Web Developer. I want to implement and develop my abilities so that they can be useful and make the lives of others easier. I am also easy to
+                        communicate and work with other people.
+                    </p>
+                    <div class="cta">
+                        <a href="mailto:muhammadzydane3@gmail.com" class="button-cta">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="box margin-img">
+                    <img src="assets/img/photo-1.png" alt="" width="400rem" />
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="content">
+                <!-- skills -->
+                <article id="skills" class="card">
+                    <h2>Skills</h2>
+                    <div class="container">
+                        <div class="container-box">
+                            <div class="flex">
+                                <img src="assets/img/UI.png" alt="UI Design" />
+                                <div class="flex-item">
+                                    <h3>UI Design</h3>
+                                    <p>I can create an attractive and user friendly UI Design, I also master figma and XD tools. and also able to do usability testing</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-box">
+                            <div class="flex">
+                                <img src="assets/img/UX.png" alt="UX Researcher" />
+                                <div class="flex-item">
+                                    <h3>UX Researcher</h3>
+                                    <p>I understand how to do research on users and products. I also conduct interviews with potential users, create personas, create journey maps, etc.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-box">
+                            <div class="flex">
+                                <img src="assets/img/Graphic Design.png" alt="Graphic Design" />
+                                <div class="flex-item">
+                                    <h3>Graphic Design</h3>
+                                    <p>I can create attractive graphic designs, such as posters, backgrounds, etc. I can also use design tools like Photoshop and Illustrator</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-box">
+                            <div class="flex">
+                                <img src="assets/img/Web-dev.png" alt="Web Development" />
+                                <div class="flex-item">
+                                    <h3>Web Development</h3>
+                                    <p>I understand the basics of web structure, I can also create web using html, css, and javascript. and i can also use framework</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- recent projects -->
+                <article id="Projects" class="card">
+                    <h2>Recent Projects</h2>
+                    <div class="container">
+                        <div class="container-box-2">
+                            <div class="projects">
+                                <img src="assets/img/projects-1.png" alt="Yourney" class="projects-image" />
+                                <div class="projects-detail">
+                                    <h3>Yourney</h3>
+                                    <p>
+                                        Yourney is a Smart Virtual Assistant to guide and accompany you to achieve the future you want. This application was created to maximize the potential of the Demographic dividend and the Quarter Life
+                                        Crisis phase.
+                                    </p>
+                                    <div class="show-study">
+                                        <a href="#" class="button-case" onclick="develop()">Show Case Study</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-box-2">
+                            <div class="projects">
+                                <img src="assets/img/projects-2.png" alt="Yourney" class="projects-image" />
+                                <div class="projects-detail">
+                                    <h3>Global Navigation</h3>
+                                    <p>
+                                        Global Navigation is an application to help someone in traveling and save the route. users can view the desired destination route, save the destination they want to visit, record trip statistics and
+                                        much more.
+                                    </p>
+                                    <div class="show-study">
+                                        <a href="#" class="button-case" onclick="develop()">Show Case Study</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-box-2">
+                            <div class="projects">
+                                <img src="assets/img/projects-3.png" alt="Yourney" class="projects-image" />
+                                <div class="projects-detail">
+                                    <h3>Workhub</h3>
+                                    <p>
+                                        The background for designing this application because we think that during the Covid-19 pandemic, many startups and organizations have changed their productivity in carrying out their work and
+                                        activities.
+                                    </p>
+                                    <div class="show-study">
+                                        <a href="#" class="button-case" onclick="develop()">Show Case Study</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-box-2">
+                            <div class="projects">
+                                <img src="assets/img/projects-4.png" alt="Yourney" class="projects-image" />
+                                <div class="projects-detail">
+                                    <h3>Ruang Jasa</h3>
+                                    <p>
+                                        Ruang Jasa is an application that is useful for providing various services needed by the community. this application managed to get 2nd place in the UI/UX competition organized by UPN Veteran Jakarta
+                                        university.
+                                    </p>
+                                    <div class="show-study">
+                                        <a href="#" class="button-case" onclick="develop()">Show Case Study</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-box-2">
+                            <div class="projects">
+                                <img src="assets/img/projects-5.png" alt="Yourney" class="projects-image" />
+                                <div class="projects-detail">
+                                    <h3>Udemy Redesign</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias reprehenderit sunt eveniet, nesciunt esse, optio velit beatae facere quas et! Exercitationem ab laborum minima aliquam quibusdam error
+                                        ad ipsam.
+                                    </p>
+                                    <div class="show-study">
+                                        <a href="#" class="button-case" onclick="develop()">Show Case Study</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <aside>
+                <!-- profile -->
+                <article id="about" class="profile card">
+                    <header class="`">
+                        <h2>About me</h2>
+                        <figure>
+                            <img src="assets/img/photo-2.png" data-intersection="about" />
+                            <figcaption>M. Zydane Ulir Rizqi Toyyibi</figcaption>
+                        </figure>
+                    </header>
+
+                    <section>
+                        <h3>Personal information</h3>
+                        <table>
+                            <tr>
+                                <th>Address</th>
+                                <td>Limo, Depok 16515</td>
+                            </tr>
+                            <tr>
+                                <th>Phone Number</th>
+                                <td>081228119616</td>
+                            </tr>
+                            <tr>
+                                <th>Email</th>
+                                <td>muhammadzydane3@gmail.com</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <div class="cv">
+                        <a href="#" class="button-cv" onclick="window.open('assets/file/CV _Mohamad Zydane Ulir Rizqi Toyyibi.pdf')">Download CV</a>
+                    </div>
+                </article>
+
+                <!-- sosial media -->
+                <article class="card">
+                    <header>
+                        <h2>Let's Get Connect</h2>
+                        <div class="container">
+                            <div class="container-box-3">
+                                <a href="https://www.instagram.com/muhammadzydane/">
+                                    <img src="assets/img/ig.png" alt="" width="64px" />
+                                </a>
+                            </div>
+                            <div class="container-box-3">
+                                <a href="https://www.facebook.com/profile.php?id=100008381323204">
+                                    <img src="assets/img/fb.png" alt="" width="64px" />
+                                </a>
+                            </div>
+                            <div class="container-box-3">
+                                <a href="https://dribbble.com/muhammadzydane">
+                                    <img src="assets/img/dr.png" alt="" width="64px" />
+                                </a>
+                            </div>
+                            <div class="container-box-3">
+                                <a href="https://www.linkedin.com/in/mohamad-zydane-ulir-rizqi-toyyibi-97b863201/">
+                                    <img src="assets/img/lk.png" alt="" width="64px" />
+                                </a>
+                            </div>
+                        </div>
+                    </header>
+                </article>
+            </aside>
+        </main>
+
+        <footer>
+            <p class="text-footer">Searching for a developer that shows passion in their work? Interested in working together? I'd love to hear from you!</p>
+            <p class="copyright">&copy; Muhammad Zydane 2021 | Front-End Developer | muhammadzydane3@gmail.com</p>
+        </footer>
+
+        <script src="assets/js/menu.js"></script>
+    </body>
+</html>
